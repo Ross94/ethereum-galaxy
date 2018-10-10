@@ -1,4 +1,4 @@
-const GRAPH_BASE_URL = 'http://raspein.portazero.it:8888/graphs'
+const GRAPH_BASE_URL = 'http://localhost:10000/ethereum-galaxy-server-modified'
 
 export const defaultConfig = {
     graphBaseUrl: GRAPH_BASE_URL,
@@ -38,7 +38,10 @@ export const defaultConfig = {
             22,
             23
         ],
-        4: [0, 4, 8, 12, 16, 20]
+        4: [0, 4, 8, 12, 16, 20],
+        6: [0,6,12,18],
+        12: [0,12],
+        24:[0]
     },
     camera: {
         // pos: { x: 0, y: 0, z: 0 },
