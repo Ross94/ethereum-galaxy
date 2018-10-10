@@ -1,4 +1,4 @@
-const GRAPH_BASE_URL = 'http://localhost:10000/ethereum-galaxy-server-modified'
+const GRAPH_BASE_URL = 'http://localhost:10000/ethereum-galaxy-data'
 
 export const defaultConfig = {
     graphBaseUrl: GRAPH_BASE_URL,
